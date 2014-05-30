@@ -1,3 +1,6 @@
+srcdir = @srcdir@
+VPATH = @srcdir@
+
 LIBRARIES = libb64.a
 
 # Build flags (uncomment one)
@@ -16,7 +19,7 @@ TARGETS = $(LIBRARIES)
 LINK.o = gcc
 
 CFLAGS += -Werror -pedantic
-CFLAGS += -I../include
+CFLAGS += -I$(srcdir)/../include
 
 vpath %.h ../include/b64
 
