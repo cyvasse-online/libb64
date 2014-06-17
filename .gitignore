@@ -1,0 +1,14 @@
+/autom4te.cache
+/configure
+
+config.log
+config.status
+depend
+Makefile
+
+base64
+c-example1
+c-example2
+
+*.o
+*.a
